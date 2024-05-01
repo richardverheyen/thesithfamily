@@ -3,14 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./HelloWorld": "./HelloWorld.vue"
-  },
-  "scripts": {
-    "lint": "eslint . --max-warnings 0",
-    "generate:component": "turbo gen react-component"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.4",
-    "vite": "^5.2.8"
+    "./HelloWorld": "./HelloWorld.vue",
+    "./Module1": "./Module1.vue",
+    "./Module2": "./Module2.vue"
   }
 }
